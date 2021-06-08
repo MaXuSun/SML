@@ -96,7 +96,7 @@ class Perceptron(object):
 
 if __name__ == '__main__':
     dataset = PerceptronData(200,2,0.1)
-    perceptron = Perceptron(dataset,lr=0.1)
+    perceptron = Perceptron(dataset,lr=0.5)
     perceptron.original_train()             # 原始的训练方法
     perceptron.show_v2()
 
